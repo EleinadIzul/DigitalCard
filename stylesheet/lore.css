@@ -55,3 +55,6 @@ html, body{
 .contact_box header figure{
     width: 25%;
 }
+.contact_box header figure img{
+    width: 100%;
+}
