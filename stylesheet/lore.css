@@ -40,3 +40,16 @@ html, body{
     width: 100%;
     display: block;
 }
+.contact_box header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.contact_box header figure,
+.contact_box header h1
+{
+    width: 50%;
+}
