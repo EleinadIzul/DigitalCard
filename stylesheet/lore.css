@@ -24,3 +24,7 @@ html, body{
     border-radius: 12px;
     overflow: hidden;
 }
+.top_banner img{
+    width: 100%;
+    display: block;
+}
