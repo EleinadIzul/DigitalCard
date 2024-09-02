@@ -48,8 +48,10 @@ html, body{
     align-content: center;
     align-items: center;
 }
-.contact_box header figure,
-.contact_box header h1
-{
-    width: 50%;
+
+.contact_box header h1{
+    width: 75%;
+}
+.contact_box header figure{
+    width: 25%;
 }
