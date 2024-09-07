@@ -230,6 +230,10 @@ footer{
         width: 48%;
         margin:20px auto;
     }
+    .box_telephone {
+        padding: 5px 10px;
+        text-align: center;
+    }
     .box_telephone a{
         font-size: 6vw;
         padding: 10px 20px;
