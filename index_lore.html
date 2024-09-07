@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="./stylesheet/lore.css" rel="stylesheet"  />
 </head>
 <body>
@@ -21,14 +22,57 @@
                 </div>
                 <div class="contact_box">
                     <header>
-                        <h1>Daniele Luzi</h1>
+                        <h1>
+                            Daniele Luzi
+                            <small>Web Developer & Digital Creator</small>
+                        </h1>
                         <figure><img src="./images/qr-code.png" alt="My Qr Code"></figure>
                     </header>
+                    <div class="box_telephone">
+                        <a href="tel:+393738862593" title="Telephone Number" target="_blank"><i class="fa-solid fa-mobile-screen"></i> 373 8862593</a>
+                    </div>
+                    <div class="box_mail">
+                        <div>
+                            <a href="mailto:lzu.daniele@gmail.com" title="Personal Mail">
+                                <i class="fa-solid fa-envelope"></i> lzu.daniele@gmail.com
+                            </a>
+                        </div>
+                        <div>
+                            <a href="mailto:lzu.daniele@gpec.it" title="Certified Mail">
+                                <i class="fa-solid fa-envelope-circle-check"></i> lzu.daniele@gpec.it
+                            </a>
+                        </div>
+                    </div>
 
                 </div>
-            </div>
 
+
+                <div class="social_links_container">
+                    <h3>Connect with me:</h3>
+                    <div class="social_links">
+                        <a href="https://wa.me/3738862593" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://t.me/Elei_nad" target="_blank" title="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="https://www.facebook.com/EleinadIzul/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/eleinadizul" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+
+                        <a href="https://discord.com/channels/eleinadizul" target="_blank" title="Discord"><i class="fa-brands fa-discord"></i></a>
+                        <!--<a href="https://www.satispay.com/promocode/DANIELELUZI" target="_blank" title="Satispay"><i class="fa-brands fa-cc-discover"></i></a>-->
+                        <a href="https://paypal.me/DanieleLuzi?country.x=IT&locale.x=it_IT" target="_blank" title="Paypal"><i class="fa-brands fa-paypal"></i></a>
+                        <a href="https://github.com/EleinadIzul/EleinadIzul" target="_blank" title="github"><i class="fa-brands fa-github"></i></a>
+                        <a href="./documents/Daniele LUZI_vcard.vcf" target="_blank" title="vCard"><i class="fa-solid fa-address-card"></i></a>
+                    </div>
+                </div>
+
+
+            </div>
+            <footer>
+                <p>© <span id="year"></span> - Design by Daniele LUZI</p>
+            </footer>
         </div>
     </div>
 </body>
+<script>
+    var currentYear = new Date()
+    document.getElementById('year').innerText = currentYear.getFullYear();
+</script>
 </html>
